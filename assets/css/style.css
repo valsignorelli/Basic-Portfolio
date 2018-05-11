@@ -117,11 +117,11 @@ section {
 .about {
 	width: 100%;
 	height: 500px;
-	padding: 20px;
-	margin-top: 50px;
+	padding: 30px;
+	margin: 70px 0;
 	background-color: #fff;
 	border: 1px solid #ddd;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif !important; 
 	color: #777777;
 	line-height: 1.3em;
 }
@@ -129,7 +129,7 @@ section {
 
 .contact {
 	width: 100%;
-	height: 500px;
+	height: 550px;
 	padding: 20px;
 	margin-top: 50px;
 	background-color: #fff;
@@ -187,7 +187,7 @@ div.desc {
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 15px 10px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -199,8 +199,8 @@ button {
     background-color: #4AAAA5;
 	font-size: 14px;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: 10px 20px;
+    margin: 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -210,7 +210,8 @@ button {
 textarea {
     width: 100%;
     height: 150px;
-    padding: 12px 20px;
+    padding: 14px 20px;
+	margin: 15px 10px 10px;
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px; 
@@ -219,28 +220,30 @@ textarea {
 }
 
 h1 {
-font-family: 'Georgia', Times, Times New Roman, serif;
-color: #4aaaa5;
-font-size: 35px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 35px;
+	font-weight: bold;
+	padding: 30px;
 }
 
 img {
-padding: 30px;
+	padding: 30px;
 }
 
 p {
-padding: 20px;
+	padding: 20px;
 }
 
 footer {
-padding: 15px;
-margin-top: 0px;
-background-color: #666;
-text-align: center;
-font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-font-size: 12px;
-position: -webkit-sticky;
-position: sticky;
+	padding: 15px;
+	margin-top: 0px;
+	background-color: #666;
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	position: -webkit-sticky;
+	position: sticky;
 }
 
 .line {
